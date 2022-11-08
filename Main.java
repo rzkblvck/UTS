@@ -8,7 +8,7 @@ public class Main {
         System.out.println();
         System.out.println();
 
-        Dosen dosen1 = new Dosen(149, "Alrul", "Sermo", "07-Nomber-1987", "Laki-Laki", 2001);
+        Dosen dosen1 = new Dosen(149, "Dimas", "Karimun", "09-April-1978", "Laki-Laki", 1999);
         dosen1.setNomorIndukDosen(987123);
         dosen1.setJurusan("Teknik Industri");
         dosen1.display();
