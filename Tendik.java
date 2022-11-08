@@ -12,17 +12,17 @@ public class Tendik extends Karyawan {
     }
 
     void display() {
-        System.out.println("Nomor Pegawai   : " + this.nomorPegawai);
-        System.out.println("Nama            : " + this.nama);
-        System.out.println("Alamat          : " + this.alamat);
-        System.out.println("Lahir           : " + this.lahir);
-        System.out.println("Jenis Kelamin   : " + this.jenisKelamin);
-        System.out.println("Tahun Masuk     : " + this.tahunMasuk);
-        System.out.println("Gaji Pokok      : Rp." + this.gaji);
+        System.out.println("Nomor Pegawai\t: " + this.nomorPegawai);
+        System.out.println("Nama\t\t\t: " + this.nama);
+        System.out.println("Alamat\t\t\t: " + this.alamat);
+        System.out.println("Lahir\t\t\t: " + this.lahir);
+        System.out.println("Jenis Kelamint\t: " + this.jenisKelamin);
+        System.out.println("Tahun Masuk\t\t: " + this.tahunMasuk);
+        System.out.println("Gaji Pokok\t\t: Rp." + this.gaji);
     }
 
     void displaygaji() {
         System.out.println("Waktu Lembur    : " + this.tampilinWaktuLembur() + " Jam");
-        System.out.println("Gaji Setelah Bonus Lembur : Rp." + this.getLembur());
+        System.out.println("Gaji Setelah Bonus Lembur : " + this.getLembur());
     }
 }
